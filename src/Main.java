@@ -8,6 +8,14 @@ public class Main {
         System.out.println(NumberOfHighestGPAScore(GPAJAvaCource));
         System.out.println("GPA Python Cource above or equal to 3.5");
         System.out.println(NumberOfHighestGPAScore(GPAPythonCourse));
+
+        // while loop that continues as long as num is not equal to 7
+        int num =0;
+        while(num != 7)
+        {
+            num = (int) Math.floor(Math.random()*11);
+            System.out.println(num);
+        }
     }
     public static int NumberOfHighestGPAScore(double[] arr)
     {
